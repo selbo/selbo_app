@@ -208,7 +208,8 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 		Camera c = null;
 		try {
 			// attempt to get a Camera instance
-			c = Camera.open();
+			int num=Camera.getNumberOfCameras();
+			c = Camera.open(0);
 		} catch (Exception e) {
 			// Camera is not available (in use or does not exist)
 		}

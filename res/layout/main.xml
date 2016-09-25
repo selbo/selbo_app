@@ -8,6 +8,7 @@
         android:id="@+id/camera_preview"
         android:layout_width="412dp"
         android:layout_height="fill_parent" >
+
     </FrameLayout>
 
     <LinearLayout
